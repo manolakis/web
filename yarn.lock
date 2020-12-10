@@ -1104,24 +1104,26 @@
     human-id "^1.0.2"
     prettier "^1.18.2"
 
-"@d4kmor/cli@^0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@d4kmor/cli/-/cli-0.8.0.tgz#9e5a9e375b1c8185447a2e5414ff44f9301a1a5c"
-  integrity sha512-LCyaO73PDArcvMmPhpEeeBP50UqKPugr/J0Uirr/MW+yxbH81MyE8osJJ5Oc5aABQ5vc4pKe8YUZUW734IcVHA==
+"@d4kmor/cli@^0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@d4kmor/cli/-/cli-0.11.0.tgz#296d2ddaecbb9a6d106d4401c6993404d9cd4a29"
+  integrity sha512-CyhK6nvkjrThJGwHbpVImn7nu6KhPvg7e+fh3qnk/PDvSAfZJBfGcF9R9vpB8HE+x+2n6C8LM2Wjw+e/tXqpqA==
   dependencies:
     "@11ty/eleventy" "^0.11.1"
     "@babel/core" "^7.12.3"
     "@babel/helpers" "^7.12.1"
     "@babel/plugin-syntax-import-meta" "^7.10.4"
-    "@d4kmor/core" "^0.1.3"
-    "@d4kmor/eleventy-plugin-mdjs-unified" "^0.3.1"
-    "@d4kmor/eleventy-rocket-nav" "^0.2.1"
+    "@d4kmor/core" "^0.2.0"
+    "@d4kmor/eleventy-plugin-mdjs-unified" "^0.4.0"
+    "@d4kmor/eleventy-rocket-nav" "^0.3.0"
     "@open-wc/building-utils" "^2.18.3"
     "@rollup/plugin-babel" "^5.2.1"
+    "@rollup/plugin-node-resolve" "^10.0.0"
     "@web/config-loader" "^0.1.2"
     "@web/dev-server" "^0.0.24"
     "@web/rollup-plugin-copy" "^0.2.0"
     "@web/rollup-plugin-html" "^1.3.1"
+    "@web/rollup-plugin-import-meta-assets" "^1.0.4"
     "@web/rollup-plugin-polyfills-loader" "^1.0.3"
     babel-plugin-bundled-import-meta "^0.3.2"
     babel-plugin-template-html-minifier "^4.1.0"
@@ -1131,10 +1133,10 @@
     rollup "^2.16.0"
     rollup-plugin-workbox "^5.0.1"
 
-"@d4kmor/core@^0.1.3":
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/@d4kmor/core/-/core-0.1.3.tgz#5493fc495608257dade8778acade49d14eda6b05"
-  integrity sha512-v+Np3i6toU3pLqI4pOMLKb/Fj/DYw85W5aagAFWSyhLjrLJlsN65NKkwP6QDS0YwUtLLWDa5eaDpLElpj4XwUQ==
+"@d4kmor/core@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@d4kmor/core/-/core-0.2.0.tgz#820f1b121677a8bf3895072cec43d482c93c7e4d"
+  integrity sha512-vrNOSyenkjCkOTl8xooHCKYutAAurmoH4qZh2yG41xwhq6St7SWZlcggMn3S+pTGIun+epMZqGa+IJWb5xA/mg==
 
 "@d4kmor/drawer@^0.2.1":
   version "0.2.4"
@@ -1144,19 +1146,19 @@
     "@lion/overlays" "^0.22.5"
     lit-element "^2.3.1"
 
-"@d4kmor/eleventy-plugin-mdjs-unified@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@d4kmor/eleventy-plugin-mdjs-unified/-/eleventy-plugin-mdjs-unified-0.3.1.tgz#9dc6bc0440788aa404a2efe24e9599270964ea27"
-  integrity sha512-X+Mu7+GqsO1Z777gdPV4WEGP51oqMxvIsFzbEORRF1vt3WJznJK79ub9PMFzbAl/eqqlyVl9jrOFlq4GgF6/Ow==
+"@d4kmor/eleventy-plugin-mdjs-unified@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@d4kmor/eleventy-plugin-mdjs-unified/-/eleventy-plugin-mdjs-unified-0.4.0.tgz#e1d6b651dedd88823241a78ae44892650fe417f6"
+  integrity sha512-x0Q8toAjVZcb9Z9YnrMTSik3+alHCVjnguIhU/nTW/s0YzGS94aphw9HS94lAGtnvLqKyYL1qcWHsZO0yPn5Ng==
   dependencies:
-    "@mdjs/core" "^0.4.0"
+    "@mdjs/core" "^0.5.0"
     es-module-lexer "^0.3.25"
     unist-util-visit "^2.0.3"
 
-"@d4kmor/eleventy-rocket-nav@^0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@d4kmor/eleventy-rocket-nav/-/eleventy-rocket-nav-0.2.1.tgz#d8f0d0ac94660744293cd542269be120b9c46009"
-  integrity sha512-keYTmrpUlmuT2CFegyYAzURHQ55vc4ky2GSMB7bvSQNZ5w5qDbH9AVXerHbOadxkRwsrY/OXrcBsRuKfdUG0DA==
+"@d4kmor/eleventy-rocket-nav@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@d4kmor/eleventy-rocket-nav/-/eleventy-rocket-nav-0.3.0.tgz#2401859ceb9c682b38ec2220fc22acb0f9a80cf1"
+  integrity sha512-iMYoMjPl5koS9cQsfa7y2+ieC7EgdsgRl1mEk9mtGwGo2XtTsyMpY3aWia+T5WOghJGqm5FcTAQ9rpA4QzFpRw==
   dependencies:
     dependency-graph "^0.8.1"
     sax-wasm "^1.4.5"
@@ -1318,13 +1320,36 @@
     globby "^11.0.0"
     read-yaml-file "^1.1.0"
 
-"@mdjs/core@^0.4.0", "@mdjs/core@^0.4.1":
+"@mdjs/core@^0.4.1":
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/@mdjs/core/-/core-0.4.1.tgz#7c6a0383a75aa7c2268b284a962ebffcd648fc94"
   integrity sha512-7nFlxXfea/x+rsSSCURRkVAP55Sy/qfEhwInDGItgChE3hITZ479SB0YCw8ypGfDEPexe71b24ntoXbkHt5uCw==
   dependencies:
     "@mdjs/mdjs-preview" "^0.2.0"
     "@mdjs/mdjs-story" "^0.0.1"
+    "@types/unist" "^2.0.3"
+    "@types/vfile" "^4.0.0"
+    es-module-lexer "^0.3.13"
+    github-markdown-css "^3.0.1"
+    rehype-autolink-headings "^2.0.5"
+    rehype-prism-template "^0.4.1"
+    rehype-raw "^4.0.1"
+    rehype-slug "^2.0.3"
+    rehype-stringify "^6.0.1"
+    remark "^11.0.2"
+    remark-parse "^7.0.2"
+    remark-rehype "^5.0.0"
+    unified "^8.4.2"
+    unist-util-remove "^1.0.3"
+    unist-util-visit "^2.0.1"
+
+"@mdjs/core@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@mdjs/core/-/core-0.5.0.tgz#549bf840eebee4817325706b96a38fbaf6ddfa2e"
+  integrity sha512-Dwq7YxR2HWi2AVpv4KZ98tEcXM3qS4f0MVQKfuUIQSzlUUwPWLu4wpzxdW6ysF9cUeCF1ZKlwsliv69AcLNjTQ==
+  dependencies:
+    "@mdjs/mdjs-preview" "^0.3.0"
+    "@mdjs/mdjs-story" "^0.1.0"
     "@types/unist" "^2.0.3"
     "@types/vfile" "^4.0.0"
     es-module-lexer "^0.3.13"
@@ -1376,12 +1401,27 @@
     lit-element "^2.3.1"
     lit-html "^1.2.1"
 
+"@mdjs/mdjs-preview@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@mdjs/mdjs-preview/-/mdjs-preview-0.3.0.tgz#e9ab9a4111ce32bdd6fd7bfbbe7d57b38966ec6b"
+  integrity sha512-QUv1LzYMBr78t+hMf2T7E4H8IWbGJ8RzwrnHKbi0xt73oF4bTW5LoiPiKt/rmWIpEumzy30BqF4SsJ3atqRMJA==
+  dependencies:
+    lit-element "^2.3.1"
+    lit-html "^1.2.1"
+
 "@mdjs/mdjs-story@^0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@mdjs/mdjs-story/-/mdjs-story-0.0.1.tgz#aad15762dd881a532756fbff774113e9964dda88"
   integrity sha512-04Nx9MQeC97X/gi4x4yPapJNxLggdXYnO0xAkXbg13cCC4dzb0CdnSslNTXSrVgDBHxj1C2EsfEiOUS5SvqqyQ==
   dependencies:
     lit-element "^2.2.1"
+
+"@mdjs/mdjs-story@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@mdjs/mdjs-story/-/mdjs-story-0.1.0.tgz#b13253a2c013e7071359324948a1602ed025b189"
+  integrity sha512-OrOHZIVOUXS1FsX8nRS9tQvmohfB4TUwFEGiX0NLz6+vMVFtUhxwAaBaeVtW19ZzolrOWbb8aYho4qklsFGN7A==
+  dependencies:
+    lit-element "^2.3.1"
 
 "@mdn/browser-compat-data@^3.0.0":
   version "3.0.0"
