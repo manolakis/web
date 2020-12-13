@@ -37,7 +37,7 @@ export function createTestSessions(
       configFilePath: groupConfig.configFilePath,
       testRunnerHtml: config.testRunnerHtml,
       browsers: config.browsers,
-      files: config.files,
+      files: config.files ?? [],
     };
 
     if (typeof mergedGroupConfig.name !== 'string') {

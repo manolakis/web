@@ -70,16 +70,22 @@
     "cli"
   ],
   "dependencies": {
+    "@web/browser-logs": "^0.1.2",
     "@web/config-loader": "^0.1.2",
     "@web/dev-server": "^0.0.29",
     "@web/test-runner-chrome": "^0.7.3",
-    "@web/test-runner-cli": "^0.6.13",
     "@web/test-runner-commands": "^0.2.1",
     "@web/test-runner-core": "^0.8.12",
     "@web/test-runner-mocha": "^0.5.1",
+    "camelcase": "^6.2.0",
+    "chalk": "^4.1.0",
     "command-line-args": "^5.1.1",
+    "convert-source-map": "^1.7.0",
     "deepmerge": "^4.2.2",
-    "globby": "^11.0.1"
+    "diff": "^5.0.0",
+    "globby": "^11.0.1",
+    "portfinder": "^1.0.28",
+    "source-map": "^0.7.3"
   },
   "devDependencies": {
     "@web/dev-server-legacy": "^0.1.6",

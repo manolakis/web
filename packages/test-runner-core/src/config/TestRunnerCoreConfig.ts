@@ -23,7 +23,7 @@ export interface CoverageConfig {
 
 export interface TestRunnerCoreConfig {
   rootDir: string;
-  files: string | string[];
+  files?: string | string[];
   concurrentBrowsers: number;
   concurrency: number;
 

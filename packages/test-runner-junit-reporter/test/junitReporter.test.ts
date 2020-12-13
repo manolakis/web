@@ -5,7 +5,6 @@ import globby from 'globby';
 
 import { chromeLauncher } from '@web/test-runner-chrome';
 import { TestRunner, TestRunnerCoreConfig } from '@web/test-runner-core';
-import { TestRunnerCli } from '@web/test-runner-cli';
 import { junitReporter } from '../src/index';
 
 import { getPortPromise } from 'portfinder';
@@ -61,11 +60,8 @@ async function launchTestRunner(cwd: string): Promise<{ actual: string; expected
   const config: TestRunnerCoreConfig = { ...createConfig(), rootDir, port, files, reporters };
 
   const runner = new TestRunner(config);
-  const cli = new TestRunnerCli(config, runner);
 
   await runner.start();
-
-  cli.start();
 
   return new Promise(resolve => {
     runner.on('stopped', async () => {
