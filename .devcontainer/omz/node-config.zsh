@@ -1,0 +1,1 @@
+export LTS_NODE_PATH="~/.nvm/versions/node/LTS_VERSION"

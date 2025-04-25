@@ -1,0 +1,16 @@
+{
+	"name": "modern-web",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"workspaceFolder": "/workspaces",
+	"shutdownAction": "stopContainer",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"mhutchie.git-graph",
+				"ms-azuretools.vscode-docker"
+			]
+		}
+	}
+}
